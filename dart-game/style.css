@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#board {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background: radial-gradient(circle, red 0%, white 50%, blue 100%);
+  border-radius: 50%;
+  position: relative;
+  border: 3px solid black;
+}
+
+#dart {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+}
